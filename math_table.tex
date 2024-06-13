@@ -1,0 +1,60 @@
+\documentclass[a4paper, 12pt]{book}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[margin=2.5cm, top = 1.25cm, bottom = 1.25cm]{geometry}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage[table]{xcolor}
+\usepackage{xcolor}
+\usepackage{siunitx}
+
+\title{Mathematical Tables}
+\author{Vinay Kumar Thakur \\ Thakur Tutorials}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\rowcolors{2}{gray!25}{white}
+
+\begin{longtable}{|c||c|ccc|ccc|ccc|}
+\hline 
+\rowcolor{black}
+\textcolor{white}{\bf $\log$} & \textcolor{white}{\bf 0} & \textcolor{white}{\bf 1} & \textcolor{white}{\bf  2} & \textcolor{white}{\bf  3} & \textcolor{white}{\bf  4} & \textcolor{white}{\bf  5} & \textcolor{white}{\bf  6} & \textcolor{white}{\bf  7} & \textcolor{white}{\bf 8} & \textcolor{white}{\bf 9} \\
+\hline 
+\hline
+\endhead 
+\hline 
+\endfoot
+\input{log_table}
+\end{longtable}
+
+\begin{landscape}
+\begin{longtable}{|c||c|ccc|ccc|ccc|}
+\hline 
+\rowcolor{black}
+\textcolor{white}{\bf $\log \sin \theta^{\prime}$} & \textcolor{white}{\bf+0} & \textcolor{white}{\bf+1} & \textcolor{white}{\bf +2} & \textcolor{white}{\bf +3} & \textcolor{white}{\bf +4} & \textcolor{white}{\bf +5} & \textcolor{white}{\bf +6} & \textcolor{white}{\bf +7} & \textcolor{white}{\bf +8} & \textcolor{white}{\bf +9} \\
+\hline 
+\hline
+\endhead 
+\hline 
+\endfoot
+\input{log_sin_table}
+\end{longtable}
+\end{landscape}
+
+\begin{landscape}
+\begin{longtable}{|c||c|ccc|ccc|ccc|}
+\hline 
+\rowcolor{black}
+\textcolor{white}{\bf $\log \tan \theta^{\prime}$} & \textcolor{white}{\bf+0} & \textcolor{white}{\bf+1} & \textcolor{white}{\bf +2} & \textcolor{white}{\bf +3} & \textcolor{white}{\bf +4} & \textcolor{white}{\bf +5} & \textcolor{white}{\bf +6} & \textcolor{white}{\bf +7} & \textcolor{white}{\bf +8} & \textcolor{white}{\bf +9} \\
+\hline 
+\hline
+\endhead 
+\hline 
+\endfoot
+\input{log_tan_table}
+\end{longtable}
+\end{landscape}
+
+\end{document}
